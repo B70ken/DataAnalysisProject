@@ -1,0 +1,31 @@
+NOTE: Jenner v1.5.37 (build v1.5.37+886f95a5f1.20260717T051227Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA player_data
+
+NOTE: Processing inline DATALINES (20 lines)
+
+NOTE: Read 20 rows from DATALINES.
+NOTE: Wrote player_data (20 rows, 11 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC PRINT data=player_data
+
+NOTE: PROC PRINT completed: 10 observations printed, 11 variables
+NOTE: PROC MEANS
+NOTE: PROC MEANS statement used.
+NOTE: PROC FREQ
+NOTE: ODS plot written: freq_position.spec.json
+NOTE: ODS plot written: freq_team_title.spec.json
+NOTE: PROC FREQ statement used.
+NOTE: PROC CORR data=player_data
+
+NOTE: ODS plot written: corr_heatmap.spec.json
+NOTE: PROC CORR ODS Graphics generated.
+NOTE: PROC SGPLOT data=player_data
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot.svg
+NOTE: PROC SGPLOT data=player_data
+
+NOTE: PROC SGPLOT output written to: ./ods_output/sgplot1.svg

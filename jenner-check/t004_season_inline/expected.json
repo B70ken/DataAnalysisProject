@@ -1,0 +1,15 @@
+{
+  "_captured_at": "2026-07-21T04:52:00Z",
+  "_captured_run_id": "r_ed5368517b0d42cea2a75362cd70bd1d",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 20 rows from DATALINES.",
+    "NOTE: Wrote season_data (20 rows, 12 columns).",
+    "NOTE: PROC PRINT completed: 10 observations printed, 12 variables",
+    "NOTE: PROC MEANS statement used.",
+    "NOTE: PROC CORR ODS Graphics generated."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
