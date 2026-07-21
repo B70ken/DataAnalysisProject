@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_season_inline",
+  "source_file": "RawCode/Projectpart2.sas",
+  "source_blob_sha": "fb155f4a8d8683523c3ea60dfe9c5ec81e368374",
+  "source_commit": "b3f352903f85b4baad717042c2827c23b85142ea",
+  "notes": "Self-contained variant of Projectpart2.sas: the season_data set is built with an inline DATALINES DATA step instead of PROC IMPORT, so the script runs with no external CSV. The PRINT/MEANS/FREQ/CORR/SGPLOT analysis and the same column set (xG xGA npxG npxGA scored missed wins draws loses pts, plus result/title) are unchanged from the author's original."
+}

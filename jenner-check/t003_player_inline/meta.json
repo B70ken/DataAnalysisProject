@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_player_inline",
+  "source_file": "RawCode/Projectpart1.sas",
+  "source_blob_sha": "ef85aedf340664436b6ef8190e918dbece160d30",
+  "source_commit": "b3f352903f85b4baad717042c2827c23b85142ea",
+  "notes": "Self-contained variant of Projectpart1.sas for one-line /v1/quick demos: the player_data set is built with an inline DATALINES DATA step instead of PROC IMPORT, so the script runs with no external CSV. The PRINT/MEANS/FREQ/CORR/SGPLOT analysis and the same column set (games goals xG assists shots key_passes yellow_cards red_cards, plus position/team_title) are unchanged from the author's original."
+}
